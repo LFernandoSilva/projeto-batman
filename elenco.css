@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display=swap') ;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/03/20/16/05/1007568.jpg')
+}
+
+.banner-2 {
+    background-image: url('https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcS054zy8v9NuvryjrZrBMHWHQnawE1Ooq87h0eV216APNkcRSBKL6hxGdN7wPKPDk8P')
+}
+
+.banner-3 {
+    background-image: url('https://hauteliving.com/wp-content/uploads/2021/09/20200227_HauteLiving_JeffreyWright_DC_Grey_Backdrop_054_ALT-533x800.jpg')
+}
+
+.banner-4 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/Paul_Dano_Cannes_2015.jpg')
+}
+
+.banner-5 {
+    background-image: url('https://imagens.brasil.elpais.com/resizer/bPWSxGjfHjNyb7ivRSkRkjL7J-E=/980x980/cloudfront-eu-central-1.images.arcpublishing.com/prisa/VYLIOSCEYRAHJEHP5RNTUGCIYM.jpg')
+}
+
+.banner-6 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BYTgwYmM0ZjgtMWRmZC00YTc1LWIwYWEtYTFjMTZiMDNjNWRkXkEyXkFqcGdeQXVyNjcwMjczMzE@._V1_.jpg')
+}
